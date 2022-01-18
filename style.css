@@ -36,8 +36,8 @@ body {
 .btn {
     cursor: pointer;
     display: inline-block;
-    width: 100%;
-    background: palegreen;
+    width: 100%;;
+    background: linear-gradient(165deg, rgb(95, 199, 95) 10%, rgb(63, 158, 63) 100%);
     padding: 15px;
     font-family: inherit;
     font-size: 16px;
@@ -50,8 +50,12 @@ body {
     outline: 0;
 }
 
+.btn:hover {
+    background: linear-gradient(165deg, rgb(63, 158, 63) 65%, rgb(95, 199, 95) 100%);
+}
+
 .btn:active {
-    transform: scale(0.98);
+    transform: scale(0.96);
 }
 
 .text {
@@ -79,7 +83,11 @@ body {
     outline: 0;
 }
 
-
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
 
 
 
