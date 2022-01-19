@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: rgb(136, 24, 52);
-    color: rgb(218, 218, 218);
+    background-color: #881834;
+    color: #dadada;
     font-family: 'Muli', sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,7 +18,7 @@ body {
 }
 
 .container {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 20px 40px;
     border-radius: 5px;
 }
@@ -30,14 +30,14 @@ body {
 
 .container a {
     text-decoration: none;
-    color: palevioletred;
+    color: #d87093;
 }
 
 .btn {
     cursor: pointer;
     display: inline-block;
     width: 100%;;
-    background: linear-gradient(165deg, rgb(95, 199, 95) 10%, rgb(63, 158, 63) 100%);
+    background: linear-gradient(165deg, #5fc75f 10%, #3f9e3f 100%);
     padding: 15px;
     font-family: inherit;
     font-size: 16px;
@@ -81,7 +81,7 @@ body {
 
 .form-control input:focus, .form-control input:valid {
     outline: 0;
-    border-bottom-color: palevioletred;
+    border-bottom-color: #d87093;
 }
 
 .form-control label {
